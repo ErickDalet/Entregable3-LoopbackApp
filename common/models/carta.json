@@ -1,0 +1,41 @@
+{
+  "name": "carta",
+  "plural": "cartas",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "nombre": {
+      "type": "string",
+      "required": true,
+      "default": "item"
+    },
+    "ingredientes": {
+      "type": "string"
+    },
+    "alergenos": {
+      "type": "string"
+    },
+    "tiempoPrep": {
+      "type": "string"
+    },
+    "foto": {
+      "type": "string"
+    },
+    "precio": {
+      "type": "string"
+    },
+    "extra": {
+      "type": "string"
+    },
+    "tipo": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

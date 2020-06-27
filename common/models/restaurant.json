@@ -1,0 +1,55 @@
+{
+  "name": "restaurant",
+  "plural": "restaurants",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "nombre": {
+      "type": "string",
+      "required": true,
+      "default": "restaurant"
+    },
+    "direccion": {
+      "type": "string",
+      "required": true,
+      "default": "conocido"
+    },
+    "localidad": {
+      "type": "string"
+    },
+    "municipio": {
+      "type": "string"
+    },
+    "estado": {
+      "type": "string"
+    },
+    "cp": {
+      "type": "string"
+    },
+    "rasonSocial": {
+      "type": "string"
+    },
+    "rfc": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "facebook": {
+      "type": "string"
+    },
+    "whastapp": {
+      "type": "string"
+    },
+    "servicioDom": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

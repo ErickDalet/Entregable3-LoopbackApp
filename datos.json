@@ -1,0 +1,23 @@
+{
+  "ids": {
+    "User": 1,
+    "AccessToken": 1,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1,
+    "restaurant": 3,
+    "carta": 1
+  },
+  "models": {
+    "User": {},
+    "AccessToken": {},
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {},
+    "restaurant": {
+      "1": "{\"nombre\":\"El Buen Sazon\",\"direccion\":\"1\",\"localidad\":\"1\",\"municipio\":\"1\",\"estado\":\"1\",\"cp\":\"1\",\"rasonSocial\":\"1\",\"rfc\":\"1\",\"email\":\"1\",\"facebook\":\"1\",\"whastapp\":\"1\",\"servicioDom\":\"1\",\"id\":1}",
+      "2": "{\"nombre\":\"La Mermelada\",\"direccion\":\"2\",\"localidad\":\"2\",\"municipio\":\"2\",\"estado\":\"2\",\"cp\":\"2\",\"rasonSocial\":\"2\",\"rfc\":\"2\",\"email\":\"2\",\"facebook\":\"2\",\"whastapp\":\"2\",\"servicioDom\":\"2\",\"id\":2}"
+    },
+    "carta": {}
+  }
+}

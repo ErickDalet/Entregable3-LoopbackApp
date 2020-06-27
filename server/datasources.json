@@ -1,0 +1,17 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory",
+    "file": "datos.json"
+  },
+  "db_mysql": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "mysql://dalet:derick@localhost/LeCarte",
+    "database": "LeCarte",
+    "password": "derick",
+    "name": "db_mysql",
+    "user": "dalet",
+    "connector": "mysql"
+  }
+}
